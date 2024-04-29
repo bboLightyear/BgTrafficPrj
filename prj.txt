@@ -1,0 +1,25 @@
+2차 개인 프로젝트
+
+-교통량 조사, 내부에 관광지 정보 추가, 장애인 콜 정보 추가, 지역별 날씨
+
+-main
+교통 데이터 분석 시간대별 교통량 분석
+(서울시 교통량 지점 정보)
+https://data.seoul.go.kr/dataList/OA-13314/A/1/datasetView.do
+(실시간 돌발)
+https://data.seoul.go.kr/dataList/OA-13315/A/1/datasetView.do
+
+교통 관련 공공 데이터 시각화 
+
+
+-sub
+서울 관광지 안내
+
+장애인 콜에 관한 내용
+http://data.seoul.go.kr/dataList/OA-15558/A/1/datasetView.do
+https://www.sisul.or.kr/open_content/calltaxi/community/api.jsp
+
+cctv 기반 날씨정보 api
+https://www.data.go.kr/data/15057966/openapi.do
+(기상청 단기 예보)
+https://data.kma.go.kr/data/rmt/rmtList.do?code=420&pgmNo=572
