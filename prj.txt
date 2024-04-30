@@ -23,3 +23,6 @@ cctv 기반 날씨정보 api
 https://www.data.go.kr/data/15057966/openapi.do
 (기상청 단기 예보)
 https://data.kma.go.kr/data/rmt/rmtList.do?code=420&pgmNo=572
+
+지도 경로 서비스 (구글맵 api)
+https://developers.google.com/maps/documentation/javascript/directions?hl=ko
