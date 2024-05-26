@@ -174,3 +174,19 @@ Insert into HR.TRAFFICSPEEDAVG ("date","avg","Gangnam","Gangbuk","Jongno_gu","Ju
 Insert into HR.TRAFFICSPEEDAVG ("date","avg","Gangnam","Gangbuk","Jongno_gu","Jung_gu","Yongsan_gu","Seongdong_gu","Gwangjin_gu","Dongdaemun_gu","Jungnang_gu","Seongbuk_gu","Gangbuk_gu","Dobong_gu","Nowon_gu","Eunpyeong_gu","Seodaemun_gu","Mapo_gu","Yangcheon_gu","Gangseo_gu","Guro_gu","Geumcheon_gu","Yeongdeungpo_gu","Dongjak_gu","Gwanak_gu","Seocho_gu","Gangnam_gu","Songpa_gu","Gangdong_gu") values ('2022. 07',22.9,23.3,22.5,22.2,20.4,25.7,23.7,23.7,22.6,21.7,23.4,20.1,21.2,22.1,20.6,23.2,23.6,26.6,22.3,22.6,22.4,22.7,25.6,24.9,24.4,23,22.3,22.3);
 Insert into HR.TRAFFICSPEEDAVG ("date","avg","Gangnam","Gangbuk","Jongno_gu","Jung_gu","Yongsan_gu","Seongdong_gu","Gwangjin_gu","Dongdaemun_gu","Jungnang_gu","Seongbuk_gu","Gangbuk_gu","Dobong_gu","Nowon_gu","Eunpyeong_gu","Seodaemun_gu","Mapo_gu","Yangcheon_gu","Gangseo_gu","Guro_gu","Geumcheon_gu","Yeongdeungpo_gu","Dongjak_gu","Gwanak_gu","Seocho_gu","Gangnam_gu","Songpa_gu","Gangdong_gu") values ('2022. 08',22.9,23.3,22.5,22.1,20.4,25.3,23.7,23.7,22.6,21.8,23.4,20.2,21.4,22.1,20.7,23.1,23.4,27.2,22,22.7,22.5,22.6,24.8,24.3,24.9,23.2,22.3,22.4);
 Insert into HR.TRAFFICSPEEDAVG ("date","avg","Gangnam","Gangbuk","Jongno_gu","Jung_gu","Yongsan_gu","Seongdong_gu","Gwangjin_gu","Dongdaemun_gu","Jungnang_gu","Seongbuk_gu","Gangbuk_gu","Dobong_gu","Nowon_gu","Eunpyeong_gu","Seodaemun_gu","Mapo_gu","Yangcheon_gu","Gangseo_gu","Guro_gu","Geumcheon_gu","Yeongdeungpo_gu","Dongjak_gu","Gwanak_gu","Seocho_gu","Gangnam_gu","Songpa_gu","Gangdong_gu") values ('2022. 09',22.8,23.5,22.2,21.6,20.1,25.5,23.4,23.4,22.2,21.4,23.1,20,21.2,21.9,20.4,22.8,23.3,27.4,21.9,22.4,22.3,22.6,25,24.7,25.6,23.3,22.4,22.3);
+
+commit;
+
+SELECT 
+    sdate, 
+    Jongno_gu, Jung_gu, Yongsan_gu, Seongdong_gu, Gwangjin_gu, 
+    Dongdaemun_gu, Jungnang_gu, Seongbuk_gu, Gangbuk_gu, Dobong_gu, 
+    Nowon_gu, Eunpyeong_gu, Seodaemun_gu, Mapo_gu, Yangcheon_gu, 
+    Gangseo_gu, Guro_gu, Geumcheon_gu, Yeongdeungpo_gu, Dongjak_gu, 
+    Gwanak_gu, Seocho_gu, Gangnam_gu, Songpa_gu, Gangdong_gu
+FROM 
+    TRAFFICSPEEDAVG
+WHERE 
+    sdate LIKE '2014%';
+    
+DESC TRAFFICSPEEDAVG;
